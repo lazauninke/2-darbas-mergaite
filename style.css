@@ -6,9 +6,10 @@ body{
 header{
     display: inline-block;  
     width: 800px; 
+    float: left;
     margin-left: calc((100% - 800px) / 2);
     margin-right: calc((100% - 800px) / 2);
-    text-decoration: none;
+    background-color: #f8f8f8;
 }
 
 header > img{
@@ -20,6 +21,7 @@ header > img{
 nav{
     display: inline-block;
     float: right;
+    margin-top: 9px;
 }
 
 a{
@@ -29,9 +31,9 @@ a{
     font-size: 16px;
     line-height: 20px;
     text-decoration: none;
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
     border: 5px solid transparent;
     border-radius: 16px;
 }
@@ -74,4 +76,5 @@ p{
 main>img {
     width: 46%;
     margin-left: 8%;
+    float: left;
 }
